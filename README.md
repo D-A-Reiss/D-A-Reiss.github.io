@@ -54,6 +54,11 @@ git submodule update --init --recursive
 To publish a page, change `draft: true` to `draft: false` (or remove the line)
 in its front matter.
 
+> Tip: `hugo server` writes rendered output into `public/` on disk. If a
+> production-build check (`hugo build`) ever seems to show stale content
+> (e.g. after previewing drafts), `rm -rf public` first — it is gitignored,
+> and the CI workflow always builds `public/` fresh in its own workspace.
+
 > Future-dated pages use the same idea with `--buildFuture`/`-F` for local preview;
 > they are also excluded from the default production build.
 
