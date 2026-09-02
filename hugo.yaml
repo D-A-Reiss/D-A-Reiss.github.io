@@ -94,6 +94,9 @@ params:
       url: "https://github.com/D-A-Reiss"
     - name: linkedin
       url: "https://www.linkedin.com/in/TODO-linkedin-slug/"
+    - name: googlescholar
+      title: "Google Scholar"
+      url: "https://scholar.google.com/citations?user=3A12dgkAAAAJ"
 
   # Academic layout overrides (layouts/home.html, layouts/_default/publications.html):
   # only publication entries with `selected: true` appear on the homepage.
