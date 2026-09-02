@@ -83,6 +83,10 @@ params:
   author: "David A. Reiss"
   description: "Personal pages of David A. Reiss"
 
+  # Legal links, rendered site-wide in the footer by the theme
+  footer:
+    text: "[Impressum](/impressum/) · [Datenschutz](/datenschutz/)"
+
   # Home-Info mode (intro block + selected publications on the homepage).
   homeInfoParams:
     title: "David A. Reiss"

@@ -119,6 +119,41 @@ summary: "One-paragraph abstract/summary."
 - Production builds never include drafts (`buildDrafts` is off and the workflow
   does not pass `-D`).
 
+## Privacy / DSGVO posture
+
+The site is deliberately built data-sparing so that it needs **no consent
+banner** (per TDDDG § 25, consent is only required for technologies that store
+or read information on end devices, or track users):
+
+- No cookies, no analytics/tracking, no embedded third-party content, no
+  external webfonts, no third-party CDNs — all CSS/JS/icons are self-hosted
+  and the live page loads zero external *resources* (only outbound links).
+- Social links (GitHub, LinkedIn, Google Scholar) are plain outbound
+  hyperlinks with inline local SVG icons — nothing is transmitted to those
+  services unless the visitor actively clicks a link.
+- Site-level template overrides (`layouts/partials/header.html`,
+  `layouts/partials/footer.html`) **remove all client-side storage**
+  (localStorage) from the stock PaperMod theme: the dark/light preference and
+  the menu scroll position are no longer persisted (they reset to the OS
+  color scheme per visit — accepted trade-off).
+- Legal pages: `/impressum/` (§ 5 DDG) and `/datenschutz/` (Art. 13 DSGVO),
+  linked from every page's footer via `params.footer.text`.
+- Hosting: GitHub Pages. GitHub processes access logs as a processor (GitHub
+  Data Protection Addendum; EU-US Data Privacy Framework / SCCs) — disclosed
+  in the Datenschutzerklärung.
+
+**Rules to keep it that way (apply to any future change):**
+
+- Analytics/tracking of any kind ⇒ requires a consent banner + policy update
+  (TDDDG § 25, DSGVO).
+- Embedding YouTube or any other third-party content ⇒ consent-gated 2-click
+  solution, or don't embed (links only).
+- Contact forms / comments / newsletter ⇒ update the Datenschutzerklärung.
+- Fonts and images only from this domain — never fonts.googleapis.com or
+  other CDNs.
+- Do not re-introduce localStorage/cookies in theme updates; keep the two
+  overrides (see *Updating the theme*).
+
 ## Updating the theme
 
 The submodule is pinned to the `v8.0` release tag. To update:
@@ -135,6 +170,13 @@ git commit -m "Update PaperMod to vX.Y"
 (Or track master by leaving the submodule on `master` — but the pinned release
 keeps builds reproducible.)
 
+> ⚠️ **DSGVO/TDDDG note:** the site carries two deliberate template overrides —
+> `layouts/partials/header.html` and `layouts/partials/footer.html` — that strip
+> all client-side storage (localStorage). After updating the theme, re-check
+> both overrides against the new theme versions and re-apply the same removals
+> if upstream reintroduces them (a `grep -r localStorage` over `public/` after
+> a build must return zero matches; see the *Privacy / DSGVO posture* section).
+
 ## Structure
 
 ```
@@ -146,3 +188,13 @@ keeps builds reproducible.)
 ├── themes/PaperMod/   # git submodule → PaperMod v8.0
 └── .github/workflows/ # Pages deployment workflow
 ```
+
+## Open TODOs (placeholders to fill in)
+
+- [ ] Real bio/tagline — `hugo.yaml` → `params.homeInfoParams.content`
+- [ ] `static/cv.pdf` — linked from `/cv/`
+- [ ] LinkedIn slug — `hugo.yaml` → `params.socialIcons`
+- [ ] Favicon files — `static/` (avoids the theme's default 404s)
+- [ ] Impressum — postal address + contact email (`content/impressum.md`)
+- [ ] Datenschutzerklärung — address/email + supervisory authority to fill in
+      (`content/datenschutz.md`); update the "Stand" date after editing
