@@ -1,0 +1,107 @@
+# Site configuration — David A. Reiss personal pages
+# Theme: PaperMod v8.0 (git submodule, themes/PaperMod)
+# Deployment: GitHub Pages via GitHub Actions (.github/workflows/hugo.yaml)
+
+baseURL: "https://d-a-reiss.github.io/"
+locale: "en-us"
+defaultContentLanguage: "en"
+title: "David A. Reiss"
+theme: "PaperMod"
+
+enableRobotsTXT: true
+enableEmoji: true
+buildDrafts: false
+
+# NOTE: declaring taxonomies REPLACES Hugo's defaults — keep all three.
+taxonomies:
+  topic: topics
+  tag: tags
+  category: categories
+
+# Which sections appear on the home page list (writings + research).
+mainSections: ["writings", "research"]
+
+# Image processing cache dir (used by the CI workflow).
+caches:
+  images:
+    dir: :cacheDir/images
+
+markup:
+  highlight:
+    noClasses: false
+    guessSyntax: true
+    lineNos: false
+    style: monokai
+  goldmark:
+    renderer:
+      unsafe: true
+
+# Search index (index.json) is required for the /search/ page.
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+menus:
+  main:
+    - name: About
+      url: /about/
+      weight: 1
+    - name: CV
+      url: /cv/
+      weight: 2
+    - name: Writings
+      url: /writings/
+      weight: 3
+    - name: Research
+      url: /research/
+      weight: 4
+    - name: Publications
+      url: /publications/
+      weight: 5
+    - name: Projects
+      url: /projects/
+      weight: 6
+    - name: Talks
+      url: /talks/
+      weight: 7
+    - name: Topics
+      url: /topics/
+      weight: 8
+    - name: Tags
+      url: /tags/
+      weight: 9
+    - name: Archive
+      url: /archives/
+      weight: 10
+    - name: Search
+      url: /search/
+      weight: 11
+
+params:
+  author: "David A. Reiss"
+  description: "Personal pages of David A. Reiss"
+
+  # Home-Info mode (intro block + selected publications on the homepage).
+  homeInfoParams:
+    title: "David A. Reiss"
+    content: >
+      TODO: add bio/tagline.
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/D-A-Reiss"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/TODO-linkedin-slug/"
+
+  # Academic layout overrides (layouts/home.html, layouts/_default/publications.html):
+  # only publication entries with `selected: true` appear on the homepage.
+  ShowOnlySelectedPubs: true
+
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowToc: true
+  ShowAllPagesInArchive: true
+  ShowRssButtonInSectionTermList: true
