@@ -1,11 +1,10 @@
 ---
-title: "Hello World"
+title: "A first blog post"
 date: 2026-09-02
 draft: false
-description: "A placeholder first post — replace with real content."
+description: "...will follow soon."
 topics: ["Writing"]
 tags: ["placeholder"]
 ---
 
-This is a placeholder post created while scaffolding the site. Delete or replace it
-with your first real post (create new posts with `hugo new writings/<slug>/index.md`).
+...will follow soon.

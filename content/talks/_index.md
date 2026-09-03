@@ -2,7 +2,7 @@
 title: "Talks"
 date: 2026-09-02
 draft: false
-description: "Tutorials, presentations, and invited talks."
+description: "Talks and teaching"
 topics: []
 tags: []
 ---

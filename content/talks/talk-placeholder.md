@@ -1,11 +1,11 @@
 ---
-title: "Sample Talk (Placeholder)"
+title: "A first talk"
 date: 2026-09-02
 draft: false
-description: "A placeholder talk entry — replace with real talks."
-summary: "Placeholder talk entry."
+description: "...will follow soon."
+summary: "...will follow soon."
 topics: ["Open Source Software"]
 tags: ["talk", "placeholder"]
 ---
 
-Placeholder talk. Create new talks with `hugo new talks/<slug>.md`.
+...will follow soon.

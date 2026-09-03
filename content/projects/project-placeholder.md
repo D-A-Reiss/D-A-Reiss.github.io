@@ -1,12 +1,12 @@
 ---
-title: "Sample Project (Placeholder)"
+title: "A first project description"
 date: 2026-09-02
 draft: false
-description: "A placeholder project entry — replace with real projects."
-summary: "Placeholder project entry for the layout check."
+description: "...will follow soon."
+summary: "...will follow soon."
 code: "https://github.com/D-A-Reiss"
 topics: ["Open Source Software"]
 tags: ["oss", "placeholder"]
 ---
 
-Placeholder project. Create new projects with `hugo new projects/<slug>.md`.
+...will follow soon.

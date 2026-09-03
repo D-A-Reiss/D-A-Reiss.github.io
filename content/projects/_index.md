@@ -2,6 +2,6 @@
 title: "Projects"
 date: 2026-09-02
 draft: false
-description: "Work and open-source projects."
+description: "Work, open-source, and research projects"
 layout: "projects"
 ---

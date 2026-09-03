@@ -54,30 +54,27 @@ menus:
     - name: Writings
       url: /writings/
       weight: 3
-    - name: Research
-      url: /research/
+    - name: Projects
+      url: /projects/
       weight: 4
     - name: Publications
       url: /publications/
       weight: 5
-    - name: Projects
-      url: /projects/
-      weight: 6
     - name: Talks
       url: /talks/
-      weight: 7
+      weight: 6
     - name: Topics
       url: /topics/
-      weight: 8
+      weight: 7
     - name: Tags
       url: /tags/
-      weight: 9
+      weight: 8
     - name: Archive
       url: /archives/
-      weight: 10
+      weight: 9
     - name: Search
       url: /search/
-      weight: 11
+      weight: 10
 
 params:
   author: "David A. Reiss"
@@ -91,13 +88,13 @@ params:
   homeInfoParams:
     title: "David A. Reiss"
     content: >
-      TODO: add bio/tagline.
+      Software Consultant @ TNG Technology Consulting | AI Researcher | Theoretical Physicist
 
   socialIcons:
     - name: github
       url: "https://github.com/D-A-Reiss"
     - name: linkedin
-      url: "https://www.linkedin.com/in/TODO-linkedin-slug/"
+      url: "https://de.linkedin.com/in/david-a-reiss-9582292a7"
     - name: googlescholar
       title: "Google Scholar"
       url: "https://scholar.google.com/citations?user=3A12dgkAAAAJ"
