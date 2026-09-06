@@ -11,7 +11,7 @@ Diese Datenschutzerklärung informiert Sie gemäß Art. 13 DSGVO über die
 Verarbeitung personenbezogener Daten auf dieser Website.
 
 
-## 1. Verantwortlicher
+### 1. Verantwortlicher
 
 Verantwortlicher im Sinne von Art. 4 Nr. 7 DSGVO ist der Betreiber dieser
 Website:
@@ -25,7 +25,7 @@ Deutschland
 **E-Mail:** dav.reiss[at]t-online.de
 
 
-## 2. Grundsätzliches: Worauf diese Website bewusst verzichtet
+### 2. Grundsätzliches: Worauf diese Website bewusst verzichtet
 
 Die Website ist bewusst datenschutzfreundlich gebaut. Insbesondere gilt:
 
@@ -55,7 +55,7 @@ enthalten das Attribut `rel="noopener noreferrer"`, sodass die zuvor
 gesehene Seite (Referrer) nicht an das Ziel übergeben wird.
 
 
-## 3. Hosting und Server-Protokolle („Logfiles“)
+### 3. Hosting und Server-Protokolle („Logfiles“)
 
 Die Website wird als statisches Angebot über **GitHub Pages** ausgeliefert.
 Dienstleister ist GitHub, Inc., 88 Colin P. Kelly Jr. Street, 94107 San
@@ -115,7 +115,7 @@ Weitere Informationen:
 - Data Protection Addendum von GitHub: https://docs.github.com/en/site-policy/privacy-policies/github-data-protection-addendum
 
 
-## 4. Ihre Rechte als betroffene Person
+### 4. Ihre Rechte als betroffene Person
 
 Sie haben das Recht auf:
 
@@ -153,20 +153,20 @@ Stahnsdorfer Damm 77\
 14532 Kleinmachnow
 
 
-## 5. Datenschutzbeauftragter
+### 5. Datenschutzbeauftragter
 
 Der Betreiber ist zur Bestellung eines Datenschutzbeauftragten nicht
 verpflichtet; es wurde kein Datenschutzbeauftragter bestellt.
 
 
-## 6. Sicherheit
+### 6. Sicherheit
 
 Die Website wird ausschließlich verschlüsselt über HTTPS mit modernen
 TLS-Verfahren ausgeliefert (aktuell: TLS 1.3). Unverschlüsselte HTTP-Aufrufe
 werden automatisch zur verschlüsselten Adresse umgeleitet.
 
 
-## 7. Änderungen dieser Datenschutzerklärung
+### 7. Änderungen dieser Datenschutzerklärung
 
 Diese Datenschutzerklärung wird bei einer Änderung des Umfangs der
 Datenverarbeitung oder der rechtlichen Rahmenbedingungen angepasst.

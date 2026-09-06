@@ -11,7 +11,7 @@ page: "https://doi.org/10.1088/1402-4896/ab5973"
 code: ""
 selected: false
 topics: ["Physics"]
-tags: ["quantum-optics", "single-photons", "time-bandwidth-product"]
+tags: ["quantum-optics", "single-photons"]
 summary: Two complementary properties, such as frequency and duration of a pulse, cannot be precisely measured simultaneously. The lower bound on the time-bandwidth product, known also as uncertainty relation, plays a very important role in quantum theory. In this work, we consider single-photon pulses with arbitrary temporal and spectral profiles, and derive a lower bound for the single-photon time-bandwidth product.
 ---
 

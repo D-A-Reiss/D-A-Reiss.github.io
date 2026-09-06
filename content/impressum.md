@@ -7,7 +7,7 @@ showToc: false
 ---
 
 
-## Angaben gemäß § 5 DDG
+### Angaben gemäß § 5 DDG
 
 **Website-Betreiber / Diensteanbieter:**
 
@@ -20,7 +20,7 @@ Deutschland
 **E-Mail:** dav.reiss[at]t-online.de
 
 
-## Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV
+### Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV
 
 David A. Reiss (Anschrift wie oben)
 
@@ -28,7 +28,7 @@ David A. Reiss (Anschrift wie oben)
 die Bereiche *Writings* und *Research*.)
 
 
-## Hinweise
+### Hinweise
 
 - Dies ist eine persönliche und nicht-kommerzielle Website. Sie dient der
   Vorstellung von Person, Werdegang, Arbeiten und Veröffentlichungen; es
