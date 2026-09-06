@@ -1,6 +1,6 @@
 ---
-title: "Teaching in academia"
-date: 2026-09-02
+title: "Past teaching in academia"
+date: 2025-01-01
 draft: false
 description: "...will follow soon."
 summary: "...will follow soon."
