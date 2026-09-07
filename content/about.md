@@ -2,6 +2,7 @@
 title: "About me"
 date: 2026-09-02
 draft: false
+showBreadCrumbs: false
 topics: []
 tags: []
 ---

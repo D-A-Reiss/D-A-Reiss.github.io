@@ -27,6 +27,13 @@
     text-decoration: underline;
 }
 
+/* The theme's invisible .entry-link overlay (full-card link, like the writings
+   listing) must not swallow clicks on the external links in the entry footer. */
+.project-entry .entry-footer {
+    position: relative;
+    z-index: 1;
+}
+
 .pub-entry {
     display: flex;
 }
