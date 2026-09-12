@@ -25,7 +25,7 @@ Deutschland
 David A. Reiss (Anschrift wie oben)
 
 (Hinweis: Diese Angabe betrifft journalistisch-redaktionelle Inhalte, z. B.
-die Bereiche *Writings* und *Research*.)
+die Bereiche [Writings](https://d-a-reiss.github.io/writings/) und [Projects](https://d-a-reiss.github.io/projects/).)
 
 
 ### Hinweise

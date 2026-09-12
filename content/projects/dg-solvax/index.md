@@ -9,7 +9,7 @@ code: https://github.com/D-A-Reiss/dg-solvax
 ---
 
 During my research on how to solve the Boltzmann equation, an integro-differential equation which forms the foundation of computational fluid dynamics (CFD), in certain scenarios interesting in spintronics*, I discovered that a discontinuous Galerkin (DG) method might be suited well in order to do so.
-Although I haven't finished this research project yet, in the spirit of the incremental approach of software development and as the core functionality might be applicable in other scenarios like producing data for training [neural operators](https://neuraloperator.github.io/dev/index.html), I decided to publish in an open-source [PyPI package](...):
+Although I haven't finished this research project yet, in the spirit of the incremental approach of software development and as the core functionality might be applicable in other scenarios like producing data for training [neural operators](https://neuraloperator.github.io/dev/index.html), I decided to publish in an open-source [PyPI package](https://pypi.org/project/dg-solvax/):
 - a solver applying a user-specified DG scheme to (systems of) partial differential equations, using
 - a solver to compute numerical fluxes through the finite elements' boundaries via solving the associated Riemann problem.
 
